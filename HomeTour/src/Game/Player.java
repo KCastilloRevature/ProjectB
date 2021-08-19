@@ -6,9 +6,10 @@ public class Player {
 	/*
 	 * So instead of setting currentRoom as a String, like what the 
 	 * template instructed, I decided to make currentRoom as a Room
-	 * object, because it is easier for me to determine where the player
-	 * can go and more importantly, set the player's location within 
-	 * the Game.
+	 * object, because it is easier for me to determine where the Player
+	 * can go and more importantly, set the Player's location within 
+	 * the Game. This can be good to confirm the program that the Player
+	 * has "moved" from one Room to another.
 	 */
 	Room currentRoom;
 	

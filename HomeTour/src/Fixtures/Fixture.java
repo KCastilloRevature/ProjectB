@@ -11,6 +11,11 @@ public abstract class Fixture {
 		this.lDesc = lDesc;
 	}
 	
+	//overloading this Fixture class to create items
+	public Fixture(String name, String lDesc) {
+		this(name, "There is no short description", lDesc);
+	}
+	
 	public String getName() {
 		return name;
 	}
